@@ -1,0 +1,37 @@
+.app-container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+    
+    header {
+        height: 20px;
+        border: 1px solid green;
+    }
+    
+    main {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        bottom: 20px;
+        right: 0;
+        border: 1px solid green;
+        overflow: auto;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 20px;
+        width: 100%;
+        background: #fff;
+        border: 1px solid blue;
+    }
+    
+    .get-data-btn {
+        display: inline-block;
+        padding: 0 5px;
+        border: 1px solid red;
+        cursor: pointer;
+    }
+}
